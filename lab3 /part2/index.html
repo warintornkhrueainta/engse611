@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Basic Lab</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+        }
+        nav {
+            width: 200px;
+            background-color: #f4f4f4;
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+            height: 100vh;
+        }
+        nav a {
+            display: block;
+            color: #333;
+            text-decoration: none;
+            margin: 10px 0;
+        }
+        nav a:hover {
+            color: #007BFF;
+        }
+        main {
+            flex: 1;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #d1c4e9;
+            color: white;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #f4f4f4;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer a {
+            color: #007BFF;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="sidebar">
+            <a href="../part2/about.html">About Me</a>
+            <a href="../part1/mycat.html">My Cat</a>
+            <a href="../part2/hobby.html">My Hobby</a>
+        </div>
+
+    </nav>
+    
+    <main>
+        <div class="content">
+            <div class="header">
+                <h1>Welcome to My Lab</h1>
+            </div>
+            <img src="https://i.pinimg.com/736x/5f/d1/f7/5fd1f7a76a7f5f1c668fa5df659f6036.jpg" alt="Cat" style="max-width: 40%; display: block; margin: 20px auto;">
+            <p>This is the main content of the page. Click on the menu items to navigate to different sections.</p>
+
+        <header>
+            <h1>Welcome to My Lab</h1>
+        </header>
+    </main>
+    <footer>
+
+        <div class="footer">
+            Contact me: <a href="mailto:example@example.com">example@example.com</a><br>
+            Follow me on: 
+            <a href="https://twitter.com" target="_blank">Twitter</a> | 
+            <a href="https://facebook.com" target="_blank">Facebook</a> | 
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a><br>
+            &copy; 2024 My Lab
+        </div>
+  
+
+    </footer>
+</body>
+</html>
+
