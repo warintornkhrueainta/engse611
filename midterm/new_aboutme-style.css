@@ -6,6 +6,7 @@ table {
 th, td {
     text-align: left;
     padding: 8px;
+    align-items: left; /* จัดแนวแนวตั้งให้อยู่ตรงกลาง */
 }
 
 tr:nth-child(even) {
