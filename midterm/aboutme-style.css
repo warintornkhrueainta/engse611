@@ -1,42 +1,45 @@
-/* กำหนดพื้นหลังของทั้งหน้าเว็บ */
 body {
-    background-color: #FFCCFF; /* พื้นหลังสีฟ้าอ่อน */
-    font-family:Dancing Script; /* ฟอนต์ */
-    text-align: left; /* จัดข้อความให้ชิดซ้าย */
+    background-color: #FFCCFF; 
+    font-family:Arial, Helvetica, sans-serif Script; 
+    text-align: left; 
+    
+}
+.highlight {
+    color: red;  
+    font-weight: bold; 
 }
 
+
 .image-container {
-    display: flex; /* ใช้ flexbox เพื่อจัดการการจัดตำแหน่ง */
-    justify-content: left; /* จัดภาพให้อยู่กึ่งกลาง */
-    align-items: left; /* จัดแนวแนวตั้งให้อยู่ตรงกลาง */
+    display: flex; 
+    justify-content: left; 
+    align-items: left; 
 }
 
 .image-container img {
-    width: 200px; /* กำหนดขนาดของภาพ */
-    margin-right: 10px; /* ระยะห่างระหว่างภาพ */
+    width: 200px; 
+    margin-right: 10px; 
 }
 
-/* เพิ่มสีพื้นหลังให้กับ ul และ ol */
+
 ul, ol {
-    padding: 10px; /* เพิ่ม padding */
-    margin: 10px 0; /* เพิ่มระยะห่างด้านบนและล่าง */
+    padding: 10px; 
+    margin: 10px 0; 
 }
 
-/* จัดตำแหน่งหัวข้อ h2 ให้อยู่ทางซ้าย */
 h2 {
     text-align: left;
-    color: #4682B4; /* สีฟ้า */
+    color: #4682B4; 
     font-size: 24px;
 }
 
-/* เพิ่มพื้นหลังสีให้กับ p */
+
 p {
-    padding: 10px; /* เพิ่ม padding ให้ข้อความไม่ชิดขอบ */
+    padding: 10px;
 }
 
-/* กำหนดพื้นหลังให้กับ h1 */
 h1 {
-    color: #CC0099	; /* สีตัวอักษร */
-    text-align: left; /* จัดข้อความให้ชิดซ้าย */ 
-    padding: 10px; /* เพิ่ม padding */
+    color: #CC0099	; 
+    text-align: left; 
+    padding: 10px; 
 }

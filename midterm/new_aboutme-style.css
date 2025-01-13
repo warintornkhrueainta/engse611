@@ -1,22 +1,110 @@
-table {
-    border-collapse: collapse;
-    width: 100%;
+/* aboutme-style.css */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFE4E1; 
+    text-align: center;
 }
 
-th, td {
+h1 {
+    color: #115da9; 
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #80cad4; 
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
     text-align: left;
-    padding: 8px;
-    align-items: left; /* จัดแนวแนวตั้งให้อยู่ตรงกลาง */
+    margin-left: 50px;
+    font-size: 18px;
+    line-height: 1.6;
+    display: flex;
+    justify-content: space-between;
 }
 
-tr:nth-child(even) {
-    background-color: rgb(245, 172, 15);
+ul li:before {
+    content: '\2022'; /* Adds a bullet symbol before each item */
+    color: #4CAF50; /* Set bullet color */
+    font-size: 20px;
+    margin-right: 10px;
 }
 
-tr:nth-child(odd) {
+p {
+    color: #ed0505; 
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+p2 {
+    color:#61e98e; 
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a {
+    color:#FF3333; 
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+li {
+    color: #d90c0c; 
+    margin-left: 20px;
+    list-style-type: none;  /* เอาสัญลักษณ์ออก */
+}
+
+ul {
+    list-style-type: none;  /* เอาสัญลักษณ์ออก */
+    margin-left: 0;         /* ไม่มีการเยื้อง */
+}
+
+img {
+    max-width: 100%; 
+    max-height: 100px;
+}
+
+.my-classes {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.my-movies {
+    text-align: center; 
+    background-color: rgb(233, 168, 72);
+}
+
+.container {
+    display: flex; 
+    justify-content: space-between; 
     background-color: rgb(255, 242, 204);
 }
 
-tr:last-child {
+.container2 {
+    display: flex; 
+    justify-content: space-between; 
     background-color: rgb(213, 232, 212);
+}
+
+.column {
+    width: 48%;
+}
+
+.column2 {
+    width: 33%; 
+    text-align: center;
+}
+
+.column3 {
+    width: 48%; 
+    text-align: center;
 }
