@@ -1,0 +1,93 @@
+body {
+    font-family: Roboto;
+  }
+
+  nav{
+    background-color:white;
+    height: 80px;
+}
+
+nav .h1{
+  font-size: 48px;
+  font-weight: 900;
+  color: #3882F6;
+}
+
+  .hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 40px;
+    
+    
+  }
+
+  .hero  .main{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    padding-bottom: 30px;
+    
+  }
+
+  .hero .Link{
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-bottom: 30px;
+  }
+
+  .hero .Logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    
+  }
+
+  .Button{
+    padding: 10px 45px;
+  }
+  .Button .button{
+    display: block;
+    padding: 10px 45px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    margin-top: 15px;
+}
+
+  .Button .button:hover{
+    background-color: #1F2937;
+    color: #fff;
+}
+
+
+  .information {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 10px 45px;
+  }
+
+  .information .font{
+    font-size: 18px;
+    font-weight: 10;
+  }
+
+  .quote {
+    background-color: #E5E7EB;
+    padding: 40px;
+    
+    
+  }
+
+  .quote .font-quote{
+    font-size: 18px;
+    font-weight: 10;
+  }
+
+  .quote .font-text{
+    font-size: 36px;
+    color: #1F2937;
+
+  }
