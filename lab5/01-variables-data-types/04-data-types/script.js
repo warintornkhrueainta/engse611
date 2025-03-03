@@ -1,15 +1,4 @@
-/*
-let a=1;
-let b=2.3;
-
-console.log(a);
-console.log(typeof b);
-b=8;
-console.log(typeof b);
-b="Test";
-console.log(typeof b);
-*/
-//String
+// String
 const firstName = 'Sara';
 
 // Number
@@ -18,8 +7,6 @@ const temp = 98.9;
 
 // Boolean
 const hasKids = true;
-console.log(hasKids);
-
 
 // Null
 const aptNumber = null;
@@ -49,10 +36,9 @@ function sayHello() {
 const output = sayHello;
 
 console.log(output, typeof output);
-console.log(output, typeof output);
 
 // More info on why typeof null == object
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof#typeof_null
 
 //  More info on the "function object" type
-// https://262.ecma-international.org/5.1/#sec-11.4.3 
+// https://262.ecma-international.org/5.1/#sec-11.4.3

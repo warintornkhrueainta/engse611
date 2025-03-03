@@ -8,12 +8,9 @@ amount = Number(amount);
 // Convert number to string
 amount = amount.toString();
 amount = String(amount);
-console.log(amount,typeof amount)
 
 // Convert string to decimal
 amount = parseFloat(amount);
-console.log(amount,typeof amount);
-amount = -0.1;
 
 // Convert number to boolean
 amount = Boolean(amount);

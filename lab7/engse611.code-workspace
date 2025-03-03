@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"name": "engse611",
+			"path": ".."
+		},
+		{
+			"name": "lab6",
+			"path": "../../untitled folder/engse611/lab6"
+		},
+		{
+			"name": "lab5",
+			"path": "../../untitled folder/engse611/lab5"
+		},
+		{
+			"name": "lab7",
+			"path": "../../untitled folder/engse611/lab7"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "engse611"
+	}
+}
