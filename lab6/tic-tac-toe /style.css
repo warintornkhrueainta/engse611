@@ -1,38 +1,68 @@
-/**
- See: CSS Variables
- https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables
-**/
-:root {
-    --grid-size: 450px;
-    --margin-size: 10px;
-    --square-size: calc((var(--grid-size) / 3) - var(--margin-size));
-  }
-  
-  body {
-    font-family: sans-serif;
-  }
-  
-  #grid {
-    align-content: space-between;
-    background-color: rgba(0,0,0,0.5);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    height: var(--grid-size);
-    width: var(--grid-size);
-  }
-  
-  #grid div {
-    background-color: white;
-    height: var(--square-size);
-    width: var(--square-size);
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  #grid div img {
-    width: 100%;
-  }
-  
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  flex-direction: column;
+  text-align: center;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+  width: 80vw;
+  max-width: 400px;
+  height: 80vw;
+  max-height: 400px;
+  margin-top: 20px;
+}
+
+#grid div {
+  width: 100%;
+  height: 100%;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+#grid div:hover {
+  background-color: #e0e0e0;
+}
+
+.x {
+  color: red;
+}
+
+.o {
+  color: blue;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+p {
+  font-size: 1.2em;
+  margin-top: 20px;
+}
