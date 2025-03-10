@@ -7,8 +7,8 @@ window.addEventListener('load', () => console.log('Page Loaded'));
 
 // On DOM Load
 window.addEventListener('DOMContentLoaded', () => console.log('DOM Loaded'));
-
 console.log('Run me');
+
 
 // Resize Event
 window.addEventListener('resize', () => {
@@ -39,6 +39,6 @@ window.addEventListener('focus', () => {
 
 window.addEventListener('blur', () => {
   document.querySelectorAll('p').forEach((p) => {
-    p.style.color = 'black';
+    p.style.color = 'red';
   });
 });
