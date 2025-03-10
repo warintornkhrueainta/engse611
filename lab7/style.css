@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.profile-section {
+    position: relative;
+    text-align: right;
+}
+
+.profile-image {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.profile-tooltip {
+    position: absolute;
+    right: 0;
+    top: -20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+    display: none;
+    z-index: 10;
+}
+
+.student-info {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.student-info p {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.student-info p::before {
+    content: "•";
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.exercises-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.exercises-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.exercises-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.show-button {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 5px 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.show-button:hover {
+    background-color: #e8e8e8;
+}
+
+/* Modal popup styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+}
+
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-button:hover {
+    color: #000;
+}

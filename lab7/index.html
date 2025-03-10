@@ -1,83 +1,111 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB7</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
 <body>
-
-<p>Click the button to create a Checkbox.</p>
-
-<button onclick="myFunction()">Try it</button>
-
-<script>
-function myFunction() {
-  var x = document.createElement("INPUT");
-  x.setAttribute("type", "checkbox");
-  document.body.appendChild(x);
-}
-
-function printName(name){
- console.log(name)
-}
-printName('A')
-
-
-const printName2 = (name) => {
- console.log(name)
-}
-printName2('B')
-
-
-const printName3 = (name) => {
- return Number*2
-}
-printName3('3')
-
-const mul = (number) => number * 2
-console.log(mul(6))
-
-
-/* const name_up =(value) => {
-    return value.toUpperSase();
-};
-console.log(name_up("lek"));
-
-
-let names = ["Metin", "Mateo", "Tony", "Chris", "Leo"];
-names = names.map((value) => {
-    return value.toUpperCase()
-});
-console.log(names);
-
-
-setTimeout(() => {
-    console.log("This message will display");
-    console.log("After 1 second");
-}, 1000);
-
-*/
-
-
-
-class User {
-    constructor() {
-        this.name = "Metin";
-    }
-}
-
-let sayHi_Normal = function () {
-    console.log("Hi " + this.name);
-};
-
-let sayHi_Arrow = () => {
-    console.log("Hi " + this.name);
-};
-
-let user = new User();
-let sayHi1 = sayHi_Normal.bind(user);
-let sayHi2 = sayHi_Arrow.bind(user);
-
-sayHi1();
-sayHi2();
-
-</script>
-
+    <div class="container">
+        <div class="header">
+            <div class="logo-section">
+                <img src="2.jpg" alt="DOM Manipulation" class="logo-image">
+                <div>
+                    <div class="title">LAB7</div>
+                    <div class="subtitle">JavaScript DOM Challenges</div>
+                </div>
+            </div>
+            
+            <div class="profile-section">
+                <img src="1.jpg" alt="Profile" class="profile-image">
+                <div class="student-info">
+                    <p>Warintorn Khrueainta</p>
+                    <p>67543210065-8 </p>
+                    <p>Sec 1</p>
+                    <p>LAB7</p>
+                </div>
+            </div>
+        </div>
+        
+        <table class="exercises-table">
+            <tr>
+                <th>No.</th>
+                <th>Exercise</th>
+                <th>Action</th>
+            <tr>
+                <td>1</td>
+                <td>Exercise 1: Changing Text Content</td>
+                <td>
+                    <button class="show-button" id="button1">Show me</button>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Exercise 2: Modifying CSS Styles</td>
+                <td>
+                    <button class="show-button" id="button2">Show me</button>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Exercise 3: Adding and Removeing Classes</td>
+                <td>
+                    <button class="show-button" id="button3">Show me</button>
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Exercise 4: Creating and Appending Elements</td>
+                <td>
+                    <button class="show-button" id="button4">Show me</button>
+                </td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Exercise 5: Removing Elements</td>
+                <td>
+                    <button class="show-button" id="button5">Show me</button>
+                </td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Exercise 6: Handling Events</td>
+                <td>
+                    <button class="show-button" id="button6">Show me</button>
+                </td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Exercise 7: Traversing the DOM</td>
+                <td>
+                    <button class="show-button" id="button7">Show me</button>
+                </td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Exercise 8: Manipulating Form Elements</td>
+                <td>
+                    <button class="show-button" id="button8">Show me</button>
+                </td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Exercise 9: Fetching and Displaying Data</td>
+                <td>
+                    <button class="show-button" id="button9">Show me</button>
+                </td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Exercise 10: Animations and Transitions</td>
+                <td>
+                    <button class="show-button" id="button10">Show me</button>
+                </td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>

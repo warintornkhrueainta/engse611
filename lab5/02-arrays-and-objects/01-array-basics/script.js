@@ -16,7 +16,7 @@ x = `My favorite fruit is an ${fruits[2]}`;
 
 x = numbers.length;
 
-fruits[2] = 'pear';
+fruits[2] = 'lemon';
 
 // length is not read-only
 // fruits.length = 2;
