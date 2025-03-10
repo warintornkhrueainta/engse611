@@ -11,7 +11,7 @@ for (const user of users) {
 }
 
 // Loop over strings
-const str = 'Hello World';
+const str = 'Hello Warintorn';
 
 for (const letter of str) {
   console.log(letter);
@@ -19,8 +19,8 @@ for (const letter of str) {
 
 // Loop over Maps
 const map = new Map();
-map.set('name', 'John');
-map.set('age', 30);
+map.set('name', 'aemmi');
+map.set('age', 21);
 
 for (const [key, value] of map) {
   console.log(key, value);

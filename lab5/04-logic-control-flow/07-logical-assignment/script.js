@@ -31,11 +31,11 @@ console.log(b);
 let c = null;
 
 if (c === null || c === undefined) {
-  c = 20;
+  c = 30;
 }
 
-c = c ?? 20;
+c = c ?? 30;
 
-c ??= 20;
+c ??= 30;
 
 console.log(c);
